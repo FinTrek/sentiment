@@ -1,7 +1,14 @@
+2016-08-03  Konstantin Greger  <kogreger@gmail.com>
+
+    * DESCRIPTION: Release 1.1
+    * Fixed classifcation of input non-atomic vectors (i.e. multiple documents at once)
+		* General code beutification
+        
+
 2016-07-21  Alexander Loth  <home@alexloth.com>
 
-        * DESCRIPTION: Release 1.0
-        * Added multi-language support, eg. use parameter language="german"
+    * DESCRIPTION: Release 1.0
+    * Added multi-language support, eg. use parameter language="german"
 		* Added fallback procedure, if selected language is not supported by word stemming algorithm
 		* Added German lexicon files
 		* Updated dependencies
@@ -9,20 +16,20 @@
 
 2016-01-28  Alexander Loth  <home@alexloth.com>
 
-        * DESCRIPTION: Release 0.3
-        * Adding functions to be consumed within Tableau
-        * Based on Jeff Wong's fork which includes performance optimizations
+    * DESCRIPTION: Release 0.3
+    * Adding functions to be consumed within Tableau
+    * Based on Jeff Wong's fork which includes performance optimizations
         
 
 2011-01-10  Timothy P. Jurka  <tpjurka@ucdavis.edu>
 
-	* DESCRIPTION: Release 0.2
-	* Updated requirements for package, namely R >=2.14
-	* Updated documentation to fix bugs in examples
-	* Removed references to Rcpp, artifacts of development
+	  * DESCRIPTION: Release 0.2
+	  * Updated requirements for package, namely R >=2.14
+	  * Updated documentation to fix bugs in examples
+	  * Removed references to Rcpp, artifacts of development
 	
 
 2011-01-01  Timothy P. Jurka  <tpjurka@ucdavis.edu>
 
-	* DESCRIPTION: Release 0.1
+  	* DESCRIPTION: Release 0.1
 	
