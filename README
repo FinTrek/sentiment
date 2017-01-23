@@ -1,11 +1,11 @@
 sentiment: Tools for Sentiment Analysis
 
 Description:	sentiment is an R package with tools for multi-language sentiment analysis including bayesian classifiers for positivity/negativity and emotion classification.
-Version:		1.0
+Version:		1.1
 Depends:		R (≥ 2.14.0), chron, NLP, tm, Rstem
-Published:		2016-07-21
-Authors:		Timothy P. Jurka, Alexander Loth, Jeff Wong
-Maintainer:		Alexander Loth <home@alexloth.com>
+Published:		2017-01-23
+Authors:		Timothy P. Jurka, Konstantin Greger, Alexander Loth, Jeff Wong
+Maintainer:		Alexander Loth <home@alexloth.com>, Konstantin Greger <kgreger@tableau.com>
 License:		GPL-3
 
 
@@ -20,7 +20,7 @@ install.packages("tm")
 install.packages("chron")
 library(httr)
 library(devtools)
-install_github("aloth/sentiment/sentiment")
+install_github("kgreger/sentiment/sentiment")
 
 
 SOURCE CODE
